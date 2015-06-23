@@ -1,0 +1,324 @@
+13:16:37.440 INFO  - Processing command line option -hwspec C:/xup/embedded/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+13:23:13.086 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:23:13.195 INFO  - PS initialization will be done as it is not done before. 
+13:23:13.195 INFO  - Running PS initialization.... 
+13:23:13.507 INFO  - ps7_init is completed. 
+13:23:13.617 INFO  - PS Initialization is complete. 
+13:25:51.725 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+07:35:54.492 INFO  - Processing command line option -hwspec C:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+07:35:54.738 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+07:35:54.776 INFO  - Copied contents of C:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+07:35:54.792 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system.bit. 
+07:35:54.990 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+07:35:55.004 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+07:35:55.053 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+07:35:55.055 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+07:35:55.068 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+07:35:55.262 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+07:35:56.677 INFO  - Updating MSS for Board Support Package Project: mem_test_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: btns_4bit, driver: gpio_v3_01_a.
+			Peripheral Instance: sw_4bit, driver: gpio_v3_01_a.
+ 
+07:36:21.342 INFO  - Updating hardware inferred compiler options for mem_test. 
+07:36:21.347 INFO  - Clearing existing target manager status. 
+07:36:23.720 INFO  - Closing and re-opening the MSS file of ther project mem_test_bsp 
+07:36:25.491 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+07:54:26.039 INFO  - FPGA configured successfully with bitstream "C:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+07:54:55.017 INFO  - Processor reset is completed for ps7_cortexa9_0 
+07:54:55.117 INFO  - PS initialization will be done as it is not done before. 
+07:54:55.117 INFO  - Running PS initialization.... 
+07:54:55.275 INFO  - ps7_init is completed. 
+07:54:55.375 INFO  - ps7_post_config is completed. 
+07:54:55.475 INFO  - PS Initialization is complete. 
+08:04:35.543 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:25:42.703 INFO  - Processing command line option -hwspec C:/Users/zhang/lab/lab4/lab4.sdk/SDK/SDK_Export/hw/system.xml. 
+10:25:46.530 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/zhang/lab/lab4/lab4.sdk/SDK/SDK_Export/hw/system.xml. 
+10:25:46.619 INFO  - Copied contents of C:/Users/zhang/lab/lab4/lab4.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+10:25:46.635 INFO  - Copied contents of C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+10:25:46.637 INFO  - Copied contents of C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_bd.bmm. 
+10:25:50.717 INFO  - Copied contents of C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+10:25:51.278 INFO  - Copied contents of C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+10:25:51.288 INFO  - Copied contents of C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+10:25:51.290 INFO  - Copied contents of C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+10:25:51.293 INFO  - Copied contents of C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+10:25:51.985 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+10:25:52.883 ERROR - Exception while attemping to 'diff' files C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\hw_platform_0\system_wrapper_bd.bmm and C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm. 
+10:25:52.883 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+10:25:57.708 INFO  - Updating MSS for Board Support Package Project: standalone_bsp_0.
+		 The following new driver assignments were made:
+			Peripheral Instance: axi_bram_ctrl_0, driver: bram_v3_03_a.
+			Peripheral Instance: led_ip, driver: generic_v1_00_a.
+ 
+10:26:09.376 INFO  - Copied contents of C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+10:26:09.378 INFO  - Copied contents of C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_wrapper_bd.bmm. 
+10:26:10.168 INFO  - Updating hardware inferred compiler options for TestApp. 
+10:26:10.172 INFO  - Clearing existing target manager status. 
+10:26:17.063 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/mem_test' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+10:26:17.063 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/mem_test_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+10:42:29.523 INFO  - Saving repository preferences. 
+10:42:29.525 INFO  - Reading in cores from local repositories: 
+		 C:\Users\zhang\lab\lab_ip\led_ip_1.0 
+10:42:29.555 INFO  - Updating libgen.options on all BSP projects. 
+10:42:29.557 INFO  - Cleaning BSP projects in the workspace. 
+10:44:52.151 INFO  - Settings changed on project standalone_bsp_0. Triggering a rebuild... 
+10:44:53.272 INFO  - Refreshed build settings on project TestApp 
+10:44:53.291 INFO  - Refreshed build settings on project lab4 
+11:02:04.406 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab4/lab4.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+11:02:45.931 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:02:46.031 INFO  - PS initialization will be done as it is not done before. 
+11:02:46.031 INFO  - Running PS initialization.... 
+11:02:46.263 INFO  - ps7_init is completed. 
+11:02:46.363 INFO  - ps7_post_config is completed. 
+11:02:46.463 INFO  - PS Initialization is complete. 
+11:05:14.443 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+11:05:14.446 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+11:07:03.878 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+11:07:56.735 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+11:09:25.719 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+11:10:26.016 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+11:18:39.355 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:19:37.018 INFO  - Processing command line option -hwspec C:/Users/zhang/lab/lab4/lab4.sdk/SDK/SDK_Export/hw/system.xml. 
+11:20:01.131 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab4/lab4.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+11:20:32.691 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:20:32.791 INFO  - PS initialization will be done as it is not done before. 
+11:20:32.791 INFO  - Running PS initialization.... 
+11:20:33.012 INFO  - ps7_init is completed. 
+11:20:33.112 INFO  - ps7_post_config is completed. 
+11:20:33.212 INFO  - PS Initialization is complete. 
+11:25:48.357 INFO  - Successfully generated C:\Users\zhang\lab\lab4\output.ld. 
+11:27:53.558 INFO  - Successfully generated C:\Users\zhang\lab\lab4\myoutput.ld. 
+11:30:19.971 INFO  - Successfully generated C:\Users\zhang\lab\lab4\output.ld. 
+11:31:09.631 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:31:19.440 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:31:21.867 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:31:26.241 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:32:25.842 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+11:32:25.842 ERROR - Timeout occured while waiting to get reply for command "xstop 64" 
+11:33:02.108 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:34:41.531 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Target selection failed.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+11:35:45.456 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:23:17.518 INFO  - Restoring local repository preferences: 
+		 C:\Users\zhang\lab\lab_ip\led_ip_1.0 
+10:29:35.637 INFO  - Successfully generated C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\lab4\src\lscript.ld. 
+10:29:35.638 INFO  - Applying linker script to all configurations of project lab4. 
+10:29:35.639 INFO  - Setting rebuild state to true for all configurations of project lab4. 
+10:43:02.780 INFO  - Successfully generated C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\lab4\src\lscript.ld. 
+10:49:30.758 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab4/lab4.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+10:55:22.095 INFO  - Successfully generated C:\Users\zhang\lab\lab4\lab4.sdk\SDK\SDK_Export\lab4\src\lscript.ld. 
+10:56:03.536 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab4/lab4.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+10:56:28.378 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:56:28.478 INFO  - PS initialization will be done as it is not done before. 
+10:56:28.478 INFO  - Running PS initialization.... 
+10:56:28.963 INFO  - ps7_init is completed. 
+10:56:29.063 INFO  - ps7_post_config is completed. 
+10:56:29.163 INFO  - PS Initialization is complete. 
+10:57:29.574 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:57:29.674 INFO  - PS initialization will be done as it is not done before. 
+10:57:29.674 INFO  - Running PS initialization.... 
+10:57:29.875 INFO  - ps7_init is completed. 
+10:57:29.975 INFO  - ps7_post_config is completed. 
+10:57:30.075 INFO  - PS Initialization is complete. 
+10:58:18.697 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:58:23.596 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:58:35.124 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:58:38.222 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:59:04.304 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:59:04.404 INFO  - PS initialization will be done as it is not done before. 
+10:59:04.404 INFO  - Running PS initialization.... 
+10:59:04.619 INFO  - ps7_init is completed. 
+10:59:04.719 INFO  - ps7_post_config is completed. 
+10:59:04.819 INFO  - PS Initialization is complete. 
+10:59:42.740 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:00:32.982 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:01:38.375 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:01:38.475 INFO  - PS initialization will be done as it is not done before. 
+11:01:38.475 INFO  - Running PS initialization.... 
+11:01:38.713 INFO  - ps7_init is completed. 
+11:01:38.813 INFO  - ps7_post_config is completed. 
+11:01:38.913 INFO  - PS Initialization is complete. 
+11:02:46.923 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:02:50.921 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:04:09.730 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+11:04:09.732 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+11:21:30.602 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:03:49.221 INFO  - Processing command line option -hwspec C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw/system.xml. 
+16:06:12.896 INFO  - Restoring local repository preferences: 
+		 C:\Users\zhang\lab\lab_ip\led_ip_1.0 
+16:48:38.059 INFO  - Processing command line option -hwspec C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw/system.xml. 
+09:57:58.227 INFO  - Processing command line option -hwspec C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw/system.xml. 
+10:01:18.575 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+10:03:01.306 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:03:01.406 INFO  - PS initialization will be done as it is not done before. 
+10:03:01.406 INFO  - Running PS initialization.... 
+10:03:01.655 INFO  - ps7_init is completed. 
+10:03:01.755 INFO  - ps7_post_config is completed. 
+10:03:01.855 INFO  - PS Initialization is complete. 
+10:03:36.034 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:03:39.637 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:04:08.353 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:04:12.955 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:05:22.522 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+10:06:34.266 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:06:34.366 INFO  - PS initialization will be done as it is not done before. 
+10:06:34.366 INFO  - Running PS initialization.... 
+10:06:34.791 INFO  - ps7_init is completed. 
+10:06:34.891 INFO  - ps7_post_config is completed. 
+10:06:34.991 INFO  - PS Initialization is complete. 
+10:06:59.713 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+10:06:59.774 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+10:06:59.825 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+10:07:18.890 INFO  - Processing command line option -hwspec C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw/system.xml. 
+10:08:00.269 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:08:02.619 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+10:08:57.461 ERROR - Port COM4 is already in use. 
+10:08:57.858 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:09:43.519 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+10:09:43.543 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+10:09:43.551 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+10:10:08.852 INFO  - Processing command line option -hwspec C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw/system.xml. 
+10:10:40.350 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+10:11:07.368 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:11:07.468 INFO  - PS initialization will be done as it is not done before. 
+10:11:07.468 INFO  - Running PS initialization.... 
+10:11:07.692 INFO  - ps7_init is completed. 
+10:11:07.792 INFO  - ps7_post_config is completed. 
+10:11:07.892 INFO  - PS Initialization is complete. 
+10:23:31.483 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:34:43.509 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+10:35:27.984 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+10:35:40.069 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:35:40.169 INFO  - PS initialization will be done as it is not done before. 
+10:35:40.169 INFO  - Running PS initialization.... 
+10:35:40.438 INFO  - ps7_init is completed. 
+10:35:40.538 INFO  - ps7_post_config is completed. 
+10:35:40.638 INFO  - PS Initialization is complete. 
+10:36:40.049 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:37:17.731 ERROR - No such port: COM4 
+10:37:18.053 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+10:37:18.055 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:37:41.618 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+10:37:47.620 INFO  - Restoring local repository preferences: 
+		 C:\Users\zhang\lab\lab_ip\led_ip_1.0 
+10:37:57.266 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:37:57.366 INFO  - PS initialization will be done as it is not done before. 
+10:37:57.366 INFO  - Running PS initialization.... 
+10:37:57.631 INFO  - ps7_init is completed. 
+10:37:57.731 INFO  - ps7_post_config is completed. 
+10:37:57.735 INFO  - PS Initialization is complete. 
+10:38:18.553 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+10:38:18.553 ERROR - Timeout occured while waiting to get reply for command "targets 64" 
+10:38:25.041 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+10:38:34.226 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+10:38:34.226 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+10:39:25.156 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+10:39:25.156 ERROR - Timeout occured while waiting to get reply for command "xdisconnect 64" 
+10:39:25.156 ERROR - Disconnect target failed. 
+10:39:25.157 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+10:39:26.241 INFO  - Processing command line option -hwspec C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw/system.xml. 
+10:40:00.995 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+10:40:30.993 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:40:31.093 INFO  - PS initialization will be done as it is not done before. 
+10:40:31.093 INFO  - Running PS initialization.... 
+10:40:31.336 INFO  - ps7_init is completed. 
+10:40:31.436 INFO  - ps7_post_config is completed. 
+10:40:31.536 INFO  - PS Initialization is complete. 
+10:41:17.655 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:41:17.755 INFO  - PS initialization will be done as it is not done before. 
+10:41:17.755 INFO  - Running PS initialization.... 
+10:41:17.983 INFO  - ps7_init is completed. 
+10:41:18.083 INFO  - ps7_post_config is completed. 
+10:41:18.183 INFO  - PS Initialization is complete. 
+10:42:20.234 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:42:26.382 ERROR - Port COM4 is already in use. 
+10:42:27.009 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:42:29.191 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:43:20.959 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:43:21.059 INFO  - PS initialization will be done as it is not done before. 
+10:43:21.059 INFO  - Running PS initialization.... 
+10:43:21.293 INFO  - ps7_init is completed. 
+10:43:21.393 INFO  - ps7_post_config is completed. 
+10:43:21.493 INFO  - PS Initialization is complete. 
+10:45:00.559 INFO  - FPGA configured successfully with bitstream "C:/Users/zhang/lab/lab5/lab5.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+10:45:22.369 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:45:22.469 INFO  - PS initialization will be done as it is not done before. 
+10:45:22.469 INFO  - Running PS initialization.... 
+10:45:22.716 INFO  - ps7_init is completed. 
+10:45:22.816 INFO  - ps7_post_config is completed. 
+10:45:22.916 INFO  - PS Initialization is complete. 
+10:45:45.821 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:46:15.622 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:46:17.221 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:46:35.570 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:46:38.365 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:49:10.722 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:49:12.615 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:54:37.154 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
