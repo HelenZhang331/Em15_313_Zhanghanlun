@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Thu Jun 25 23:31:12 2015
+# Process ID: 9968
+# Log file: C:/Users/zhang/lab/final_lab/final_lab.runs/impl_1/system_wrapper.vdi
+# Journal file: C:/Users/zhang/lab/final_lab/final_lab.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace
+Command: open_checkpoint system_wrapper_routed.dcp
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.2
+Loading clock regions from D:/ChromeDownload/vivado_new/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/ClockRegion.xml
+Loading clock buffers from D:/ChromeDownload/vivado_new/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/ClockBuffers.xml
+Loading clock placement rules from D:/ChromeDownload/vivado_new/Vivado/2014.2/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from D:/ChromeDownload/vivado_new/Vivado/2014.2/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from D:/ChromeDownload/vivado_new/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/clg400/Package.xml
+Loading io standards from D:/ChromeDownload/vivado_new/Vivado/2014.2/data\./parts/xilinx/zynq/IOStandards.xml
+Parsing XDC File [C:/Users/zhang/lab/final_lab/final_lab.runs/impl_1/.Xil/Vivado-9968-zhang-PC/dcp/system_wrapper_board.xdc]
+Finished Parsing XDC File [C:/Users/zhang/lab/final_lab/final_lab.runs/impl_1/.Xil/Vivado-9968-zhang-PC/dcp/system_wrapper_board.xdc]
+Parsing XDC File [C:/Users/zhang/lab/final_lab/final_lab.runs/impl_1/.Xil/Vivado-9968-zhang-PC/dcp/system_wrapper_early.xdc]
+Finished Parsing XDC File [C:/Users/zhang/lab/final_lab/final_lab.runs/impl_1/.Xil/Vivado-9968-zhang-PC/dcp/system_wrapper_early.xdc]
+Parsing XDC File [C:/Users/zhang/lab/final_lab/final_lab.runs/impl_1/.Xil/Vivado-9968-zhang-PC/dcp/system_wrapper.xdc]
+Finished Parsing XDC File [C:/Users/zhang/lab/final_lab/final_lab.runs/impl_1/.Xil/Vivado-9968-zhang-PC/dcp/system_wrapper.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.280 . Memory (MB): peak = 451.793 ; gain = 0.000
+Restoring placement.
+Restored 413 out of 413 XDEF sites from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-484] Checkpoint was created with build 932637
+open_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 452.566 ; gain = 278.480
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./system_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory for users of free Webpack licenses. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-185] WebTalk report has not been sent to Xilinx. Please check your network and proxy settings.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 803.844 ; gain = 351.277
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 25 23:32:10 2015...

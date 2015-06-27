@@ -1,0 +1,12 @@
+!SESSION 2015-06-26 00:20:48.379 -----------------------------------------------
+eclipse.buildId=2014.2
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-06-26 00:21:26.678
+!MESSAGE Indexed 'standalone_bsp_0' (87 sources, 110 headers) in 3.90 sec: 3,492 declarations; 13,038 references; 56 unresolved inclusions; 9 syntax errors; 37 unresolved names (0.22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-06-26 00:21:27.249
+!MESSAGE Indexed 'TestApp' (1 sources, 34 headers) in 0.56 sec: 602 declarations; 1,141 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0.00%)
